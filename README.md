@@ -25,7 +25,7 @@ Or run individual prompt templates from `prompts/` for specific activities.
 
 ### Phase 1 — Transition In (`skills/transition-in.md`)
 
-Weeks 1–10. Before the full team arrives, a small advance group uses AI to build a **codebase intelligence baseline** so every incoming engineer has an AI assistant that has effectively already read the whole project.
+Weeks 1–10. Before the full team arrives, a small advance group uses AI to build a **codebase intelligence baseline** so every incoming engineer has an AI assistant that has effectively already read the whole project. If the schedule is externally constrained, use the compressed 30-day variant ([`skills/transition-in-30day.md`](skills/transition-in-30day.md)).
 
 Produces:
 - Architecture map (module summaries, dependency graph)
@@ -68,6 +68,7 @@ Produces:
   copilot-instructions.md   # Toolkit-level Copilot context
 skills/
   transition-in.md          # Phase 1 skill
+  transition-in-30day.md    # Phase 1 skill, compressed 30-day variant
   steady-state.md           # Phase 2 skill
   transition-out.md         # Phase 3 skill
 prompts/
@@ -82,7 +83,6 @@ prompts/
   transition-package.md     # Assemble the full outbound handover package
   exit-criteria.md          # Define measurable handover exit criteria
 transition.txt              # Source white paper
-d8-lincs.ed.gov/            # Example project (illustration only)
 ```
 
 ---
